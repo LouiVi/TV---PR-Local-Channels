@@ -1,0 +1,33 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <script src="ds:/Sys/app.js"></script>
+</head>
+	
+<script>
+if(prompt("Telemundo = 2, Teleonce = 11?", "2")==="2"){
+	app.Script( "Telemundo.js" );
+}else{
+app.Script( "Teleonce.js" );
+}
+    
+</script>
+
+<style>
+	body { background-color: #ffffff; }
+    .hello 
+    { 
+        font-size: 42; 
+        width: 100%;
+        margin-top: 2em;
+        text-align: center;
+        color: blue;
+    }
+</style>
+
+<body onload="app.Start()">
+
+	<div class=hello> Hello World! </div>
+	
+</body>
+</html>
